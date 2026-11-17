@@ -1,0 +1,19 @@
+{
+  "name": "h4b-quality-enhancer-clone",
+  "version": "1.0.0",
+  "description": "Reverse-engineered full-stack clone of method.billoxd.site (TikTok 120FPS bypass)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0",
+    "@ffmpeg/ffmpeg": "0.12.15",
+    "@ffmpeg/core": "0.12.10"
+  }
+}
